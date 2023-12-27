@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#0E0D0D</color>
+    <color name="white">#FFFFFFFF</color>
+<!--    <color name="green_500">#673AB7</color>-->
+    <color name="lavender">#000000</color>
+    <color name="green_500">#010004</color>
+    <color name="nav">#C2C6E6</color>
+    <color name="CardColor">#AFB2CD</color>
+    <color name="dividorColor">#B5AED3</color>
+    <color name="grey">#808080</color>
+     <color name="card">#E7EDF1</color>
+</resources>

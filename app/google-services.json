@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "142852806190",
+    "project_id": "plantcare-ba57a",
+    "storage_bucket": "plantcare-ba57a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:142852806190:android:2b50eeec1b47c18f09f1bf",
+        "android_client_info": {
+          "package_name": "com.example.skincure"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9_yYRKLL45zH1FKwNrDOBOVogWycxvSE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

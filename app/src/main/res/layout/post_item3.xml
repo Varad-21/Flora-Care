@@ -1,0 +1,49 @@
+<!-- res/layout/post_item.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/card"
+    android:padding="10dp"
+    android:layout_margin="10dp"
+    >
+
+    <ImageView
+        android:id="@+id/imageVie"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/plantt"
+        android:contentDescription="@null" />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/skinlogo"
+        android:contentDescription="@null" />
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/textViewPrevention"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"
+        android:text="Prevention" />
+
+    <TextView
+        android:id="@+id/textViewPrecautions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Precautions" />
+
+</LinearLayout>

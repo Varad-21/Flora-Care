@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SENDTO" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SkinCure"
+        tools:targetApi="31">
+        <activity
+            android:name=".UserHairMale"
+            android:exported="false" />
+        <activity
+            android:name=".UserHairFemale"
+            android:exported="false" />
+        <activity
+            android:name=".AdminHairMale"
+            android:exported="false" />
+        <activity
+            android:name=".AdminHairFemale"
+            android:exported="false" />
+        <activity
+            android:name=".AdminReports"
+            android:exported="false" />
+        <activity
+            android:name=".UserFaceFemale"
+            android:exported="false" />
+        <activity
+            android:name=".UserFaceMale"
+            android:exported="false" />
+        <activity
+            android:name=".AdminFaceFemale"
+            android:exported="false" />
+        <activity
+            android:name=".AdminFaceMale"
+            android:exported="false" />
+        <activity
+            android:name=".AdminHairGender"
+            android:exported="false" />
+        <activity
+            android:name=".AdminFaceGender"
+            android:exported="false" />
+        <activity
+            android:name=".UserHairGender"
+            android:exported="false" />
+        <activity
+            android:name=".UserFaceGender"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AdminNotifications"
+            android:exported="false" />
+        <activity
+            android:name=".AdminAboutus"
+            android:exported="false" />
+        <activity
+            android:name=".AdminFeedback"
+            android:exported="false" />
+        <activity
+            android:name=".AdminDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".DoctorDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+    </application>
+
+</manifest>
